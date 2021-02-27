@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 @Entity
 public class Widget {
+	// second push test
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
